@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Manpreet Singh - Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Manpreet_Avatar_Favicons.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link
+      rel="stylesheet"
+      href="./assets/css/style.css"
+    />
+
+    <!--
+    - google font link
+  -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside
+        class="sidebar"
+        data-sidebar
+      >
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/Manpreet_Avatar.png"
+              alt="Manpreet Singh"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1
+              class="name"
+              title="Manpreet Singh"
+            >
+              Manpreet Singh
+            </h1>
+
+            <p class="title">Java Frontend Developer</p>
+          </div>
+
+          <button
+            class="info_more-btn"
+            data-sidebar-btn
+          >
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto:mnpretdevs07@gmail.com"
+                  class="contact-link"
+                  >mnpretdevs07@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a
+                  href="tel:+916280077200"
+                  class="contact-link"
+                  >+91 62800 77200</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">October 31, 2002</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Sangrur, Punjab</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="#"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="#"
+                class="social-link"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="#"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button
+                class="navbar-link active"
+                data-nav-link
+              >
+                About
+              </button>
+            </li>
+
+            <li class="navbar-item">
+              <button
+                class="navbar-link"
+                data-nav-link
+              >
+                Resume
+              </button>
+            </li>
+
+            <li class="navbar-item">
+              <button
+                class="navbar-link"
+                data-nav-link
+              >
+                Portfolio
+              </button>
+            </li>
+
+            <li class="navbar-item">
+              <button
+                class="navbar-link"
+                data-nav-link
+              >
+                Contact
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article
+          class="about active"
+          data-page="about"
+        >
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a Java Frontend Developer who loves building clean, fast, and
+              user-friendly web applications. I use React.js to create smooth
+              and responsive user interfaces, and handle the backend with Java,
+              using servlets, APIs, and database connections to bring everything
+              together.
+            </p>
+
+            <p>
+              I focus on writing clear, maintainable code and making sure every
+              part of the application works perfectly — from what users see on
+              the screen to how data flows in the background. My goal is to
+              build web solutions that not only work well but also deliver a
+              great experience.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                    class="web-icon"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">React Development</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made with ReactJS.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Java development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites with the help of Java.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-UIUX.svg"
+                    alt="mobile app icon"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UI/UX Designer</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications with ui/ux Designs.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-graphics.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Graphics Designer</h4>
+
+                  <p class="service-item-text">
+                    Professional Graphics Editing with excellent knowledege of
+                    Adobe tools.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div
+                  class="content-card"
+                  data-testimonials-item
+                >
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Naval Sharma
+                  </h4>
+
+                  <div
+                    class="testimonials-text"
+                    data-testimonials-text
+                  >
+                    <p>
+                      Working with Manpreet has been an excellent experience. He
+                      designed and developed our website with great attention to
+                      detail and a clear understanding of our business needs.
+                      His skills in Java frontend development are impressive,
+                      and he ensured the site was not only functional but also
+                      visually engaging. Manpreet was responsive, creative, and
+                      always open to feedback. We are extremely happy with the
+                      final result and highly recommend him to anyone looking
+                      for a skilled and reliable developer.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div
+                  class="content-card"
+                  data-testimonials-item
+                >
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Zest Team
+                  </h4>
+
+                  <div
+                    class="testimonials-text"
+                    data-testimonials-text
+                  >
+                    <p>
+                      Manpreet did a fantastic job retouching and refining the
+                      look of our website, Zest.Living. His design sense and
+                      attention to aesthetics brought a fresh, modern feel to
+                      the entire site. He was professional, quick to understand
+                      our vision, and delivered beyond expectations. The user
+                      interface is now cleaner, more vibrant, and truly reflects
+                      our brand. I'm really impressed with his creativity and
+                      would definitely recommend him for any frontend design
+                      work.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div
+                  class="content-card"
+                  data-testimonials-item
+                >
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Kamaljot Kaur
+                  </h4>
+
+                  <div
+                    class="testimonials-text"
+                    data-testimonials-text
+                  >
+                    <p>
+                      I'm truly impressed with the website Manpreet developed
+                      for KK Studio Academy. From the very beginning, he
+                      understood exactly what we needed and brought our vision
+                      to life with precision and creativity. The design is
+                      clean, user-friendly, and perfectly captures the essence
+                      of our academy. Manpreet's dedication, technical skills,
+                      and eye for detail made the whole process seamless and
+                      professional. I highly recommend him to anyone looking for
+                      a reliable and talented developer.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div
+            class="modal-container"
+            data-modal-container
+          >
+            <div
+              class="overlay"
+              data-overlay
+            ></div>
+
+            <section class="testimonials-modal">
+              <button
+                class="modal-close-btn"
+                data-modal-close-btn
+              >
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img
+                  src="./assets/images/icon-quote.svg"
+                  alt="quote icon"
+                />
+              </div>
+
+              <div class="modal-content">
+                <h4
+                  class="h3 modal-title"
+                  data-modal-title
+                >
+                  Daniel lewis
+                </h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Logo1.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="https://kkstudioacademy.blogspot.com/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Logo2.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="https://www.zest.living/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Logo4.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="https://3foxheritage.netlify.app/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Logo5.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="https://newsharmarefreshment.blogspot.com/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Logo3.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article
+          class="resume"
+          data-page="resume"
+        >
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bachelor in Computer Applications
+                </h4>
+
+                <span>2022 — 2024</span>
+
+                <p class="timeline-text">
+                  Graduated with a BCA degree from Bhai Gurdas College. It laid
+                  a solid foundation in programming, web technologies, and
+                  computer science.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Secondary School ( 12th Grade )
+                </h4>
+
+                <span>2020 — 2021</span>
+
+                <p class="timeline-text">
+                  Earned my Class 12th qualification from Rishi Public Sen. Sec.
+                  School. It was here that I discovered my passion for
+                  technology and learning.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  High School ( 10th Grade )
+                </h4>
+
+                <span>2018 — 2019</span>
+
+                <p class="timeline-text">
+                  Completed high school from Rishi Public Senior Secondary
+                  School. Proud alumnus of Rishi Public School, where I built
+                  the foundation of my academic journey.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Java Frontend Developer</h4>
+
+                <span>Present</span>
+
+                <p class="timeline-text">
+                  After completing my training, I worked on several real-life
+                  projects with ReactJS and Java including Zest, KK Studio, Sky
+                  Whisper, Sharma Refreshment, and 3 Fox Heritage. These
+                  projects helped me apply my frontend skills to practical,
+                  client-driven solutions.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Java Frontend Developer (Trainee)
+                </h4>
+
+                <span>2023 — 2024</span>
+
+                <p class="timeline-text">
+                  After my freelance journey, I pursued Java Frontend
+                  Development under the mentorship of Mr. Manjit Singh. He
+                  guided me during my training at OOPS Info Solutions, where I
+                  honed my technical and project-building skills.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Graphics Designer (Freelancing)
+                </h4>
+
+                <span>2018 — 2022</span>
+
+                <p class="timeline-text">
+                  Freelanced in graphic design for various clients including
+                  Highrich, Team 11 Eagles, KK Studio, and Deconwheels and many
+                  more. Delivered creative designs across branding, social
+                  media, and marketing materials.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Frontend Skills</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div
+                    class="skill-progress-fill"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Backend Skills</h5>
+                  <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div
+                    class="skill-progress-fill"
+                    style="width: 75%"
+                  ></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Graphic designing</h5>
+                  <data value="95">95%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div
+                    class="skill-progress-fill"
+                    style="width: 95%"
+                  ></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">UI/UX Design</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div
+                    class="skill-progress-fill"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article
+          class="portfolio"
+          data-page="portfolio"
+        >
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button
+                  class="active"
+                  data-filter-btn
+                >
+                  All
+                </button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Development</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Design</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button
+                class="filter-select"
+                data-select
+              >
+                <div
+                  class="select-value"
+                  data-selecct-value
+                >
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Web Development</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Web Design</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Project1.jpg"
+                      alt="Sky Wisper"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Sky Wisper (Weather App)</h3>
+
+                  <p class="project-category">React Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://3foxheritage.netlify.app"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Project3.jpg"
+                      alt="3 fox heritage"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">3 Fox Heritage</h3>
+
+                  <p class="project-category">Java Web Development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://kkstudioacademy.blogspot.com"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Project4.jpg"
+                      alt="KK Studio"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">KK Studio</h3>
+
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a
+                  href="https://zest.living/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Project2.jpg"
+                      alt="zest living"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Zest Living</h3>
+
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a
+                  href="https://newsharmarefreshment.blogspot.com/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Project5.jpg"
+                      alt="New Sharma Refreshment"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">New Sharma Refreshment</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article
+          class="contact"
+          data-page="contact"
+        >
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section
+            class="mapbox"
+            data-mapbox
+          >
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55149.07974456913!2d75.80150013211453!3d30.24228087936979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3910510deb4fd6dd%3A0x72fec26ae33512c8!2sSangrur%2C%20Punjab%20148001!5e0!3m2!1sen!2sin!4v1750943946424!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form
+              action="https://formspree.io/f/xyzjbvov"
+              method="POST"
+              class="form"
+              data-form
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button
+                class="form-btn"
+                type="submit"
+                disabled
+                data-form-btn
+              >
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
